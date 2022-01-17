@@ -1,3 +1,5 @@
+import gridvis
+
 grid = []
 for i in range (100):
     grid.append([])
@@ -6,3 +8,5 @@ for i in range (100):
         
 print("100 X 100 grid with numbers:")
 print(grid)
+
+gridvis.grid_visualize(grid)
