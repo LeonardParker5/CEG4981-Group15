@@ -6,6 +6,8 @@ grid[1:-1, 1:-1]=0
 
 np.set_printoptions(threshold=sys.maxsize)
 
+im = gridvis.grid_visualize(grid)
+
 #
 # Characters used to represent valid/invalid grid coordinates the robot can move to
 # as well as character to represent center of robots current position
@@ -33,6 +35,9 @@ print("Robot location initialized at: ")
 print(x_index, y_index)
 print("Symbol identifying robot at index: ")
 print(grid[y_index][x_index])
+
+last_coord = [x_index, y_index]
+im = gridvis.init_pos(im, x_index, y_index)
 
 #
 # Currently the "robot" finds the edge by simply decrementing its y-coordinate until
@@ -105,11 +110,10 @@ for i in range(y_index, (len(grid) - 1)):
     # Call to motor driver library to move robot to new coordinate position
     y_index = i
     
+print("100 X 100 grid with numbers:")
+print(grid)
 
 print("Current robot location:")
 print(x_index, y_index)
 
-print("100 X 100 grid with numbers:")
-print(grid)
-
-gridvis.grid_visualize(grid)
+gridvis.render_grid(im)
