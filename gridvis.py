@@ -8,7 +8,7 @@ def grid_visualize(grid):
     draw = ImageDraw.Draw(im)
     
     #draw.ellipse((50, 50, 450, 450), fill=(255, 255, 255), outline=(0, 0, 0))
-    draw.rectangle((50, 50, 450, 450), fill=(255, 255, 255), outline=(0, 0, 0))
+    draw.rectangle((10, 10, 490, 490), fill=(255, 255, 255), outline=(0, 0, 0))
     
     #draw.line((0, 0) + im.size, fill=128)
     #draw.line((0, im.size[1], im.size[0], 0), fill=128)
