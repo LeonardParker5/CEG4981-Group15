@@ -21,7 +21,7 @@ robot_char = -1
 # First objective will be to find the tables top edge
 #
 
-grid[random.randint(0,99)][random.randint(0,99)] = robot_char
+grid[random.randint(1,98)][random.randint(1,98)] = robot_char
 
 for i in range(0, len(grid)):
     try:
