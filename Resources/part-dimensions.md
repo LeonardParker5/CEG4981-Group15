@@ -44,7 +44,7 @@ Claw Switch - **2 Position Rotary Switch**
 
 Proximity Sensor - **Adafruit Ultrasonic Distance Sensor**
 
-- 1.57" by 0.70"
+- 3.96875 cm by 1.34937 cm by 1.74625 cm (excluding pins)
 
 Level Sensor - **Maxmoral M16 Float Level Sensor**
 
