@@ -12,7 +12,7 @@ Motor Driver - **Adafruit DC & Stepper Motor HAT**
 
 Wheel Motor - **S-snail 4-Piece Tire+Wheel+Motor**
 
-- 
+- 2.56" by 1.02"
 
 Solution Pump - **Winkeyes DC Pump**
 
