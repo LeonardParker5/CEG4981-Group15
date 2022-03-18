@@ -52,7 +52,7 @@ Level Sensor - **Maxmoral M16 Float Level Sensor**
 
 LCD Display - **GeeekPi LCD 2004 Module**
 
-- 
+- 7.9375 by 1.875cm by 0.635cm
 
 Power Source - ****
 
