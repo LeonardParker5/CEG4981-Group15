@@ -1,0 +1,63 @@
+.app {
+  background-color: deepskyblue;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  overflow: hidden;
+}
+
+.ip-input-container {
+  position: relative;
+  top: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 30%;
+  flex-direction: column;
+}
+
+.ip-input-label {
+  position: relative;
+  font-size: 3rem;
+}
+
+.ip-input {
+  position: relative;
+  border-width: 4px;
+  padding: 1rem;
+  padding-bottom: 1.25rem;
+  font-size: 3rem;
+  border-radius: 3rem;
+  width: 30rem;
+  height: 3rem;
+  text-align: center;
+}
+
+.submit-ip {
+  position: relative;
+  top: 5%;
+  width: 6rem;
+  height: 3rem;
+  border-radius: 3rem;
+  font-size: 1rem;
+}
+
+.status-box {
+  width: 70vw;
+  height: 30vh;
+  position: absolute;
+  top: 60%;
+  font-size: 3rem;
+  border: solid green 10px;
+  border-radius: 30px;
+  padding: 1rem;
+  word-wrap: break-word;
+}
+
+.smart-sweep {
+  width: 80vw;
+  height: 25vh;
+  position: absolute;
+}
